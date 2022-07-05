@@ -23,6 +23,7 @@ if(!isset($_SESSION['admin_name'])){
 
 </head>
 <body>
+ 
 <nav>
 
 <input type="checkbox" id="check">
