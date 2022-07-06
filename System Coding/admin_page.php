@@ -33,6 +33,7 @@ if(!isset($_SESSION['admin_name'])){
 <label class="logo">MY DOCTOR MY HEALTH</label>
 
 <ul>
+<li><a href="#">Home</a></li>
    <li><a href="#">Registration</a></li>
    <li><a href="#">Diagnosis</a></li>
    <li><a href="#">Doctor</a></li>
@@ -44,11 +45,10 @@ if(!isset($_SESSION['admin_name'])){
 <div class="container">
 
    <div class="content">
+      
       <h3>hi, <span>admin</span></h3>
       <h1>welcome <span><?php echo $_SESSION['admin_name'] ?></span></h1>
       <p>this is an admin page</p>
-      <a href="login_form.php" class="btn">login</a>
-      <a href="register_form.php" class="btn">register</a>
       <a href="logout.php" class="btn">logout</a>
    </div>
 
